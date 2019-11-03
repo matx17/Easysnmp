@@ -51,11 +51,11 @@ while (count!= int(s)):
            out=((2**32+a)-b)/tdifference
            out1.append(out)
       else:
-        print (t1, "|")
+        print t1, "|"
 
    if len(out1)!=0:
       sar = [str(get) for get in out1]
-      print (int(t1) ,'|', ("|" . join(sar)))
+      print int(t1) ,'|', ("|" . join(sar))
       count=count+1
   oldest = latest[:]
   t4=t1
